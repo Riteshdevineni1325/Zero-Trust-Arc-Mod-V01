@@ -1,4 +1,5 @@
 Zero-Trust-Arc-Mod-V01
+
 This project presents the design and implementation of a Zero Trust Security System using Python and PostgreSQL. The system is built on the principle of “never trust, always verify”, ensuring that every user request is authenticated and authorized before access is granted.
 
 The application provides secure user registration and login functionalities using JWT (JSON Web Token)–based authentication. It supports role-based access control, where users are categorized as normal users or administrators. To prevent unauthorized privilege escalation, administrator account creation requires validation using existing admin credentials.
