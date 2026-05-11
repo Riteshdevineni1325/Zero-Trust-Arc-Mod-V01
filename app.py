@@ -105,7 +105,6 @@ def login():
 
     if user and user.password == password:
 
-        # ✅ Get IP safely
         ip = request.headers.get('X-Forwarded-For', request.remote_addr)
         print("User IP:", ip)
 
